@@ -1,5 +1,26 @@
 # **Finding Lane Lines on the Road** 
 
+## Writeup Template
+
+### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+
+---
+
+**Finding Lane Lines on the Road**
+
+The goals / steps of this project are the following:
+* Make a pipeline that finds lane lines on the road
+* Reflect on your work in a written report
+
+
+[//]: # (Image References)
+
+[image1]: ./examples/grayscale.jpg "Grayscale"
+
+---
+
+### Reflection
+
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 The pipeline consists of the following steps:
@@ -16,4 +37,4 @@ One potential shortcoming of the pipeline is that it does not work effectively w
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to boost the yellow areas of the image so that there is enough contrast between the solid yellow lines and the road surface. This can be done by converting original image from RGB to HSV colorspace and from it isolating the yellow and the white lanes respectively. Further, superimpose these lanes on the darkened grayscale image (done to enhance the contrast) and then following steps 2 to 6 of the pipeline.
+A possible improvement would be to boost the yellow areas of the image so that there is enough contrast between the solid yellow lines and the road surface. This can be done by converting original image from RGB to HSV colorspace and from it isolating the yellow and the white lanes respectively. Further, superimpose these lanes on the darkened grayscale image (done to enhance the contrast) and then follow steps 2 to 6 of the pipeline.
